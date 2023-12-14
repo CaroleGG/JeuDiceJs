@@ -7,10 +7,17 @@
     <title>Dice</title>
 </head>
 <body>
+    <div id="ui">
+        Nombre de dés : <output id="nb-dice-display">3</output>
+        <input id="nb-dice" type="range" min="1" max="10" step="1" value="3"> <button id="play-button" type="button">Jouer</button> </button>
+       
+        <p class="precision"> ppsssssstttt ,appuie sur le bouton ou une touche du clavier</p>
+    </div>
     
     <div id="app">
-        <div class="board" id="player">PLAYER</div>
-        <div class="board" id="dealer">DEALER</div>
+        
+        <p class="board">PLAYER</p><div class="board" id="player"></div>
+        <p class="board">DEALER</p><div class="board" id="dealer"></div>
     </div>
     <script src="app.js"></script>
 </body>
