@@ -29,6 +29,10 @@ body {
     justify-content: center;
     align-content: end;
     margin-bottom: 20% ;
+    /*
+    -webkit-box-reflect: below
+          1px linear-gradient(transparent,#0005);
+          */
   }
   
   .dice {
@@ -83,6 +87,6 @@ button:hover{
   font-size: 2em;
   padding : 0.5em;
   font-weight: bold !important;
-
-
+  box-shadow: 0 0 5px #f2f240,0 0 15px #f2f240,
+             0 0 25px #f2f240,0 0 100px #f2f240;
 }
